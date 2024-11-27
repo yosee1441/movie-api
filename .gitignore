@@ -1,0 +1,48 @@
+# Bytecode de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de entornos virtuales (virtualenv, venv, env)
+venv/
+.env/
+*.env
+
+# Archivos de configuración de editor (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Archivos de base de datos de SQLite (si usas SQLite)
+*.db
+*.sqlite3
+
+# Archivos generados por herramientas de compilación
+*.egg-info/
+*.eggs/
+dist/
+build/
+*.whl
+
+# Archivos de logs
+*.log
+
+# Archivos de pruebas y cobertura de código
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+*.hypothesis/
+.pytest_cache/
+
+# Archivos de Docker (si usas Docker)
+Dockerfile
+docker-compose.yml
+
+# Archivos de dependencias
+Pipfile.lock
+poetry.lock
+
+# Otros archivos temporales
+*.bak
+*.swp
